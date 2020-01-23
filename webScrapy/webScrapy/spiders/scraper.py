@@ -44,7 +44,7 @@ class ScraperSpider(CrawlSpider):
 
 
         browser = webdriver.Chrome("C:/chromedriver.exe")
-        #browser = webdriver.Chrome("")
+        #browser = webdriver.Chrome("/usr/local/bin/chromedriver")
         browser.get(url)
         time.sleep(4)
         
